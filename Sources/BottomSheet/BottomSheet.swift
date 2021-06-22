@@ -84,7 +84,7 @@ public struct BottomSheet<Content: View>: BottomSheetView {
                     isExpanded = value.translation.height < 0
                 }
             )
-        }.edgesIgnoringSafeArea(.bottom)
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
